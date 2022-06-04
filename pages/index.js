@@ -18,7 +18,7 @@ export default function Home() {
           <p>This is a NO FRILLS example of a form on a next.js page to see if there&apos;s something related to my other project</p>
 
           <form name="contact" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
-          <input type="hidden" name="contact" value="contact-form" />
+          <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
