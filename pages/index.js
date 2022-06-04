@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head"
+import Image from "next/image"
+import styles from "../styles/Home.module.css"
 
 export default function Home() {
   return (
@@ -17,7 +17,8 @@ export default function Home() {
           <p>I&apos;m gonna be real, I love Netlify but I&apos;ve wasted TWO DAYS trying to get their forms working.</p>
           <p>This is a NO FRILLS example of a form on a next.js page to see if there&apos;s something related to my other project</p>
 
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" method="POST" data-netlify="true" encType="application/x-www-form-urlencoded">
+          <input type="hidden" name="contact" value="contact-form" />
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
