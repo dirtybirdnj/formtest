@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Next.js / Netlify Forms test</h1>
-          <p>I&apos;m gonna be real, I love Netlify but I've wasted TWO DAYS trying to get their forms working.</p>
+          <p>I&apos;m gonna be real, I love Netlify but I&apos;ve wasted TWO DAYS trying to get their forms working.</p>
           <p>This is a NO FRILLS example of a form on a next.js page to see if there&apos;s something related to my other project</p>
 
           <form name="contact" method="POST" data-netlify="true">
